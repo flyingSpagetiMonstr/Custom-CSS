@@ -51,24 +51,56 @@ body::before {
 }
 
 span.mwe-math-element img {
-    background-color: var(--mid-color);
-    border-radius: 3px;
-    /* margin-right: 3px; */
+    /* border-radius: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
     padding-right: 6px;
-    padding-left: 6px;
+    padding-left: 6px; */
+
+    filter: grayscale(100%) invert(100%);
 }
 
 .mwe-popups-type-page {
     background-color: var(--dark-green);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .vector-dropdown-content {
     background-color: var(--dark-green);
     padding: 10px;
     border-radius: 10px;
+}
+
+a.mwe-popups-extract::after {
+    background: linear-gradient(to left, var(--dark-green), transparent);
+}
+
+
+/* Cream */
+:root {
+    --cream-color: #FFE4B5;
+    --mid-color: #F9F4C0;
+    --beige-color: #F5F5DC;
+    --dark-green: #024102;
+}
+
+/* ==================================== */
+a.mwe-popups-extract {
+    color: white;
+}
+
+/* ==================================== */
+
+a {
+    color: var(--mid-color);
+}
+
+a :visited {
+    color: #FF8C00;
+}
+
+a :hover {
+    color: #FF6347;
 }
 
 /* ==================================== */
@@ -86,52 +118,6 @@ a:hover {
 } */
 
 /* ==================================== */
-/* Cream */
-:root {
-    --cream-color: #FFE4B5;
-    --mid-color: #F9F4C0;
-    --beige-color: #F5F5DC;
-    /* --light-green: #8FBC8F; */
-    /* --bright-green: #98FB98; */
-    /* --good-green: #c2fac2; */
-    --good-green: #c8f4c8;
-    --dark-green: #024102;
-}
-
-/* ==================================== */
-a.mwe-popups-extract {
-    color: white;
-}
-
-a.mwe-popups-extract::after {
-    background: linear-gradient(to left, var(--dark-green), transparent);
-}
-
-a {
-    color: var(--mid-color);
-}
-
-a :visited {
-    color: #FF8C00;
-}
-
-a :hover {
-    color: #FF6347;
-}
-
-/* ==================================== */
-
-/* a :not(.mwe-popups-extract) {
-    color: var(--mid-color);
-}
-
-a :not(.mwe-popups-extract) :visited {
-    color: #FF8C00;
-}
-
-a :not(.mwe-popups-extract) :hover {
-    color: #FF6347;
-} */
 
 /* ==================================== */
 
@@ -188,3 +174,10 @@ a:hover {
 
 /* background: rgba(255, 255, 255, 0.5) url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/hari.jpg) center/cover no-repeat fixed; */
 /* } */
+
+
+
+/* p {
+    background-color: violet;
+    color: white;
+} */
