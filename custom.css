@@ -1,0 +1,190 @@
+/* Set the transparency for all elements except text */
+* {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+* {
+    color: inherit !important;
+}
+
+/* .mw-headline {
+    color: white;
+} */
+
+*::-webkit-scrollbar {
+    width: 0.1em;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+
+/* *::-webkit-scrollbar-thumb {
+    background-color: transparent;
+} */
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/pics/hari.jpg) center/cover no-repeat; */
+    /* background: url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/pics/Sola.png) center/cover no-repeat; */
+    background: url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/pics/104664094_p0%5Bsumi%5D%5Bmidori%5D.png) center/cover no-repeat;
+    opacity: 0.45;
+    /* Adjust the opacity as needed */
+    z-index: -1;
+    /* Place the pseudo-element behind the content */
+}
+
+.vector-sticky-pinned-container {
+    display: none;
+}
+
+span.mwe-math-element img {
+    background-color: var(--mid-color);
+    border-radius: 3px;
+    /* margin-right: 3px; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 6px;
+    padding-left: 6px;
+}
+
+.mwe-popups-type-page {
+    background-color: var(--dark-green);
+    border-radius: 5px;
+}
+
+.vector-dropdown-content {
+    background-color: var(--dark-green);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ==================================== */
+
+/* a {
+    color: var(--beige-color);
+}
+
+a:visited {
+    color: #D2B48C;
+}
+
+a:hover {
+    color: #FFD700;
+} */
+
+/* ==================================== */
+/* Cream */
+:root {
+    --cream-color: #FFE4B5;
+    --mid-color: #F9F4C0;
+    --beige-color: #F5F5DC;
+    /* --light-green: #8FBC8F; */
+    /* --bright-green: #98FB98; */
+    /* --good-green: #c2fac2; */
+    --good-green: #c8f4c8;
+    --dark-green: #024102;
+}
+
+/* ==================================== */
+a.mwe-popups-extract {
+    color: white;
+}
+
+a.mwe-popups-extract::after {
+    background: linear-gradient(to left, var(--dark-green), transparent);
+}
+
+a {
+    color: var(--mid-color);
+}
+
+a :visited {
+    color: #FF8C00;
+}
+
+a :hover {
+    color: #FF6347;
+}
+
+/* ==================================== */
+
+/* a :not(.mwe-popups-extract) {
+    color: var(--mid-color);
+}
+
+a :not(.mwe-popups-extract) :visited {
+    color: #FF8C00;
+}
+
+a :not(.mwe-popups-extract) :hover {
+    color: #FF6347;
+} */
+
+/* ==================================== */
+
+/* a {
+    color: var(--cream-color);
+}
+
+a:visited {
+    color: #D2B48C;
+}
+
+a:hover {
+    color: #FFD700;
+} */
+
+/* ==================================== */
+/* 
+a {
+    color: #FFD700;
+}
+
+a:visited {
+    color: #FFA500;
+}
+
+a:hover {
+    color: #FF6347;
+} */
+
+/* ==================================== */
+/* 
+a {
+    color: #bbb;
+}
+
+a:visited {
+    color: #ccc;
+}
+
+a:hover {
+    color: #fff;
+} */
+/* ==================================== */
+
+
+
+/* body { */
+/* background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/hari.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+
+/* background: rgba(255, 255, 255, 0.5) url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/hari.jpg) center/cover no-repeat fixed; */
+/* } */

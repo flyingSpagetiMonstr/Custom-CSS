@@ -1,0 +1,12 @@
+div.relative.p-1.rounded-sm.h-9.w-9.text-white.flex.items-center.justify-center {
+    background-image: url(https://raw.githubusercontent.com/flyingSpagetiMonstr/archive/main/pics/110533133_p0-m.png);
+    background-size: 30px;
+    overflow: hidden;
+    height: 30px;
+    content: "";
+    z-index: -1;
+}
+
+svg {
+    display: none;
+}
