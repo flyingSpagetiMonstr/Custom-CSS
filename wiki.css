@@ -95,12 +95,12 @@ a {
     color: var(--mid-color);
 }
 
-a :visited {
-    color: #FF8C00;
+a:visited {
+    color: #FF8C00 !important;
 }
 
-a :hover {
-    color: #FF6347;
+a:hover {
+    color: #FF6347 !important;
 }
 
 /* ==================================== */
